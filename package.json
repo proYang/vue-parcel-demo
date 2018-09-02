@@ -1,0 +1,36 @@
+{
+  "name": "vue-parcel-demo",
+  "version": "1.0.0",
+  "description": "Building Vue.js Apps with Parcel.",
+  "scripts": {
+    "dev": "parcel ./public/index.html --open",
+    "build": "parcel build ./public/index.html NODE_ENV=production --no-source-maps --public-url ./public --out-dir ./dist"
+  },
+  "keywords": [
+    "Vue",
+    "Parcel"
+  ],
+  "author": "SlaneYang",
+  "license": "MIT",
+  "dependencies": {
+    "autoprefixer": "^9.1.3",
+    "postcss-modules": "^1.3.2",
+    "vue": "^2.5.17",
+    "vue-hot-reload-api": "^2.3.0",
+    "vue-router": "^3.0.1",
+    "vuex": "^3.0.1"
+  },
+  "devDependencies": {
+    "@vue/component-compiler-utils": "^2.2.0",
+    "@vue/eslint-config-airbnb": "^3.0.1",
+    "babel-eslint": "^9.0.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-vue": "^2.0.2",
+    "eslint": "^5.5.0",
+    "eslint-plugin-vue": "^4.7.1",
+    "less": "^3.8.1",
+    "parcel-bundler": "^1.9.7",
+    "parcel-plugin-eslint": "^1.0.4",
+    "vue-template-compiler": "^2.5.17"
+  }
+}
