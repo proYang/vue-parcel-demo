@@ -30,7 +30,6 @@
     "eslint": "^5.5.0",
     "eslint-plugin-vue": "^4.7.1",
     "less": "^3.8.1",
-    "parcel": "^1.9.7",
     "parcel-bundler": "^1.9.7",
     "vue-template-compiler": "^2.5.17"
   }
