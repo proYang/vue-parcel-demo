@@ -1,7 +1,7 @@
 {
   "name": "vue-parcel-demo",
   "version": "1.0.0",
-  "description": "Building Vue.js Apps with Parcel.",
+  "description": "A Vue demo including Code Splitting, Hot Reloading, ESLint, Vuex, Vue Router and Less.",
   "scripts": {
     "dev": "parcel ./public/index.html --open",
     "build": "parcel build ./public/index.html NODE_ENV=production --no-source-maps --public-url ./public --out-dir ./dist",
